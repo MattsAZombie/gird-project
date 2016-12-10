@@ -1,0 +1,18 @@
+.grid {
+	border: 1px dotted red;
+	display: flex;
+	float: right;
+	height: 20px;
+	width: 20px;
+	margin: 0;
+}
+
+#wrapper {
+	width: 350px;
+	height: 350px;
+
+}
+
+.hover {
+	background-color: red;
+}
