@@ -24,7 +24,7 @@ function makeGrid(size) {
 
 function makeNewGrid() {
 	$('button').click(function() {
-    input = prompt("Pick a grid size! (e.g. enter 16 for 16x16 grid)");
+    input = prompt("Pick a the new size for your grid! \nExample: enter 20 for a 20x20 grid.");
 
     $('#wrapper').empty();
 	makeGrid(Math.pow(input, 2));
