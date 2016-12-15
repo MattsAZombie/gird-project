@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	outline: 1px dotted black;
+	display: flex;
+	float: right;
+	margin: 0;
+}
+
+#wrapper {
+	width: 640px;
+	height: 640px;
+	margin: 0 auto;
+	outline: 1px solid black;
+
+}
+
+.hover {
+	background-color: red;
+}
+
+button {
+	font-size: 15px;
+	background-color: lightblue;
+	border: 2px solid black;
+	display: block;
+	margin: 15px auto;
+	padding: 3px;
+	
+}
